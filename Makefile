@@ -279,7 +279,7 @@ strip_options:
 
 install-strip: build strip_options install
 
-install: build
+install: build html
 	mkdir -p $(DESTDIR)$(PREFIX)${includedir}
 	mkdir -p $(DESTDIR)$(PREFIX)${bindir}
 	mkdir -p $(DESTDIR)$(PREFIX)${libdir}
